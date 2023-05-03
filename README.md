@@ -14,9 +14,12 @@
     <p>You can install these libraries using pip by running the following command:</p>
     <code>pip install opencv-python numpy</code>
     
-  <h3>Usage</h3>
-    <p>To run the script, simply execute the <code>face_detection.py</code> file in your Python environment. Make sure you have a webcam connected to your computer. When the script is running, it will open a window showing the video stream from your webcam. If a human face is detected, a green rectangle will be drawn around it with the text "Human Face" written above it.</p>
- 
+   <h3>Usage</h3>
+    <p>To run the script in a Jupyter Notebook, first make sure you have installed OpenCV and Numpy using pip as described above. Then, open a new notebook in Jupyter and copy the code from the script into a new cell. Make sure to run the cell to import the necessary libraries and define the functions.</p>
+    <p>Once you have copied the code into a cell, you can run the script by executing the cell. When the script is running, it will open a window showing the video stream from your webcam. If a human face is detected, a green rectangle will be drawn around it with the text "Human Face" written above it.</p>
+    
+    
+
  
   <h4>Example</h4>
     <img src="https://github.com/joyontadasjoy/Face-Detection-OpenCV/blob/main/Face_Detection/test_example.jpg" alt="face detection example" width="500">
